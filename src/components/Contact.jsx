@@ -11,7 +11,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus("Sending...");
     try {
-      await axios.post(import.meta.env.VITE_API_URL, form);
+      await axios.post("https://akshay-portfolio-backend-dp0u.onrender.com/api/contact", form);
       console.log("Hii");
       setStatus("Message sent — check your Gmail.");
       setForm({ name: "", email: "", message: "" });
