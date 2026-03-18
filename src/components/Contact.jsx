@@ -12,6 +12,7 @@ const Contact = () => {
     setStatus("Sending...");
     try {
       await axios.post(import.meta.env.VITE_API_URL, form);
+      console.log("Hii");
       setStatus("Message sent — check your Gmail.");
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
