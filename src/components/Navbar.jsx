@@ -21,7 +21,6 @@ const Navbar = () => {
           <li><a href="#home" className="hover:text-[var(--accent)] transition">Home</a></li>
           <li><a href="#about" className="hover:text-[var(--accent)] transition">About</a></li>
           <li><a href="#projects" className="hover:text-[var(--accent)] transition">Projects</a></li>
-          <li><a href="#contact" className="hover:text-[var(--accent)] transition">Contact</a></li>
         </ul>
 
         <div className="md:hidden text-2xl cursor-pointer" onClick={() => setOpen(!open)}>

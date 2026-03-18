@@ -27,7 +27,6 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.7 }}
       >
-        <a href="#contact" className="bg-[var(--accent)] text-white px-5 py-2 rounded-lg shadow hover:brightness-110 transition">Hire Me</a>
         <a href="#projects" className="border border-[rgba(255,255,255,0.06)] text-[var(--muted)] px-5 py-2 rounded-lg hover:bg-[rgba(255,255,255,0.02)] transition">Projects</a>
       </motion.div>
     </section>
