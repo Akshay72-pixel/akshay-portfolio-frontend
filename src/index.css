@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/* Global dark theme */
+:root {
+  --bg: #0b0f13;       /* near-black */
+  --card: #0f1720;     /* dark card */
+  --muted: #94a3b8;    /* muted text */
+  --accent: #7c3aed;   /* purple accent */
+  --glass: rgba(255,255,255,0.03);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg);
+  color: #e6eef8; /* light text */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
