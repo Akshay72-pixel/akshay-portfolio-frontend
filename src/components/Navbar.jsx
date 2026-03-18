@@ -34,7 +34,7 @@ const Navbar = () => {
           <a href="#home" onClick={() => setOpen(false)} className="block hover:text-[var(--accent)]">Home</a>
           <a href="#about" onClick={() => setOpen(false)} className="block hover:text-[var(--accent)]">About</a>
           <a href="#projects" onClick={() => setOpen(false)} className="block hover:text-[var(--accent)]">Projects</a>
-          <a href="#contact" onClick={() => setOpen(false)} className="block hover:text-[var(--accent)]">Contact</a>
+          
         </div>
       )}
     </nav>
