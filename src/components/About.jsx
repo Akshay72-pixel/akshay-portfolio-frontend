@@ -18,13 +18,18 @@ const About = () => {
             <span className="text-white font-semibold">
               Full Stack Developer
             </span>{" "}
-            skilled in the MERN stack. I love building modern, scalable web
-            applications with clean UI and smooth user experience.
+            with experience in building modern and scalable web applications.
+            I focus on creating clean, responsive user interfaces and smooth
+            user experiences.
             <br />
             <br />
-            I also have knowledge of{" "}
+            I have hands-on experience with{" "}
             <span className="text-purple-400">
-              Java, Python, MySQL, and Data Structures
+              MERN stack, PHP, Laravel, MySQL
+            </span>{" "}
+            and a strong foundation in{" "}
+            <span className="text-purple-400">
+              Java, Python, and Data Structures & Algorithms
             </span>.
           </p>
         </div>
